@@ -1,0 +1,127 @@
+/* 글씨체 모양 바꾸기 */
+body {
+	font-family: 'Noto Sans', sans-serif;
+	background: #caebf2;
+	color: #001f3f;
+}
+
+/* 글씨체 종류 바꾸기 */
+h1, h2, h3, h4 {
+	font-family: 'Roboto Mono', monospace;
+}
+
+/* 27페이지 => 이미지 조정화*/
+.container { 
+	max-width: 840px;
+	margin: 0 auto;
+}
+
+/* */
+.container > div {
+	margin: 20px auto;
+}
+
+/*  My Full Name => center*/
+.intro {
+    text-align: center;
+}
+
+/* 두 격차를 이용해서 각자 사이즈에 맞춰서 */
+.about-grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+/* 화면 크기에 맞겠금 자동화시켜준다.  */
+@media (max-width: 480px){
+    .about-grid {
+        grid-template-columns:100%;
+    }
+}
+
+/* Iam I Like to=> center 정렬*/
+.i-am, .i-like {
+    text-align: center;
+    text-decoration: none
+}
+
+/* Iam / I Like to => 아래 내용들 정렬 */
+.about-list {
+    list-style: none;
+    padding: 0;
+}
+
+/* My Projects => 제목 center화 */
+.projects-heading {
+    text-align: center; 
+}
+
+/* 300x300 => 격자화 시킬 것이다. */
+.projects-grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+/* 300x300 이미지 이쁘게 정렬화 */
+.project-image {
+    justify-self: center;
+    padding: 4%;
+    width:400px;
+}
+
+/*Links => 격자화 / but 양쪽 크기 다르게 */
+.links-and-contact {
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+/* */
+.links {
+    justify-self: center;
+}
+
+/* */
+.links-list {
+    list-style: none;
+    padding: 0;
+}
+
+/* */
+form input, textarea {
+	padding: 5px;
+	border-radius: 5px;
+	width: 240px;
+}
+
+/* */
+form {
+	width: 250px;
+	margin: 0 auto;
+}
+
+/* */
+form input[type="submit"] {
+	width: 250px;
+}
+
+/* */
+.submit-button-wrapper {
+	margin: 20px 0;
+    background-color: aqua;
+    color: black;
+}
+
+/* */
+.map{
+    text-align: center;
+}
+
+.profile-picture{
+    width: 150px;
+}
+
+hr {
+border: 0;
+height: 1px;
+background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
