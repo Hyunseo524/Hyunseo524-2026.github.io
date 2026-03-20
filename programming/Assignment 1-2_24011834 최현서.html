@@ -1,0 +1,88 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <title> Assignment 1-2 </title>
+    </head>
+    <body>
+        <table border="1" align="center">
+            <tr>
+                <th style="text-align: right;">First name</th>
+                <td> 
+                    <input type="text" name="First name" id="First name" />
+                </td>
+            </tr>
+            <tr>
+                <th style="text-align: right;">Last name</th>
+                <td> 
+                    <input type="text" name="Last name" id="Last name" />
+                </td>
+            </tr>
+            <tr>
+                <th style="text-align: right;">Gender</th>
+                 <td>
+                    <select name ="gender">
+                        <option value ="male" selected="selected">Male</option>
+                        <option value ="famale">Female</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th style="text-align: right;">Email</th>
+                <td> 
+                    <input type ="email" name="email" required="true"  pattern="[^ @]*@[^ @].[^ @]"/>
+                </td>
+            </tr>
+            <tr>
+                <th style="text-align: right;">Address</th>
+                <td>
+                    <textarea cols="23" rows="2.5"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <th style="text-align: right;">City</th>
+                <td> 
+                    <input type="text" name="city" id="city" />
+                </td>
+            </tr>
+            <tr>
+                <th style="text-align: right;">Zip/Postal code</th>
+                <td> 
+                    <input type="number" name="number" required="true" />
+                </td>
+            </tr>
+            <tr>
+                <th style="text-align: right;">Country</th>
+                 <td>
+                    <select name ="country">
+                        <option value ="Korea" selected="selected">Korea</option>
+                        <option value ="Japan">Japan</option>
+                        <option value ="China">China</option>
+                        <option value="Other country">Other contry</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th style="text-align: right;">Starting date</th>
+                <td>
+                    <input type="radio" name="weather" value="Spring 2023" />Spring 2023
+                    <input type="radio" name="weather" value="Fall 2023" />Fall 2023
+                </td>
+            </tr>
+            <tr>
+                <th style="text-align: right;">Comments/Questions</th>
+                <td> 
+                    <textarea cols="23" rows="2.5"></textarea>
+                </td>
+            </tr>
+
+            <tfoot>
+                <td style="text-align: center;" colspan ="2" bgcolor ="lightblue">
+                    <input type="submit" name="submitbtn" value="Submit" />
+                    <input type="reset" name="resetbtn" value="Clear this Form" />
+                </td>
+            </tfoot>
+        </table>
+    </body>
+
+</html>

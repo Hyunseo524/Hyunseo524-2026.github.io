@@ -1,0 +1,19 @@
+h2 {color: blue;}
+
+p{
+    background-color: blanchedalmond;
+    color: cyan;
+    text-align: right;
+    size: 2000px;
+    font-style: italic;
+}
+
+/* */
+.shade {background-color: rgb(210, 164, 195);}
+.newclass {color:darksalmon;}
+
+#intro {
+    color: brown;
+    background-color: lightsteelblue;
+    text-align: center;
+}
